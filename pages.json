@@ -1,0 +1,48 @@
+{
+	"pages": [/* {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "uni-ui基础项目"
+		}
+	}    , */{
+            "path" : "pages/list/menu1",
+            "style" : {}
+        },{
+            "path" : "pages/list/menu2",
+            "style" : {}
+        },{
+            "path" : "pages/list/menu3",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "World Of Hello",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"color":"#FFFFFF",
+		"backgroundColor":"#007AFF",
+		"borderStyle":"black",
+		"selectedColor":"#CCCCCC",
+		"list":[
+			{
+				"pagePath":"pages/list/menu1",
+				"text":"菜单一",
+				"iconPath":"static/img/Item1.png",
+				"selectedIconPath":"static/img/Item1.png"
+			},
+			{
+				"pagePath":"pages/list/menu2",
+				"text":"菜单二",
+				"iconPath":"static/img/Item2.png",
+				"selectedIconPath":"static/img/Item2.png"
+			},
+			{
+				"pagePath":"pages/list/menu3",
+				"text":"菜单一"
+			}
+		]
+	}
+}
